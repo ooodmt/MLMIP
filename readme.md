@@ -14,7 +14,14 @@ DenseNet-169 | 0.81
 EfficientNet | 0.84
 Combined model| 0.88
 
-After training we employed gradCAM and LIME to understand causes of network's probability assignments.  
+After training we employed gradCAM and LIME to understand causes of network's probability assignments. Below is the example of explanation for prediction produced by gradCAM for 3 with highest probability.
+
+#### Original image
+![Original image](https://raw.githubusercontent.com/ooodmt/MLMIP/master/sample_xray.jpg)
+
+#### Resulting gradCAM for top-3 labels
+![Original image](https://raw.githubusercontent.com/ooodmt/MLMIP/master/sample_gradCAM.jpg)
+
 
 contributors
 structure of repository
