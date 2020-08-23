@@ -6,11 +6,11 @@ This repository contains code we used to set up, train and evaluate our neural n
 Train several convolutional neural networks on CheXpert dataset for multilabel classification of 14 diseases and take advantage of existing explanation techniques to understand network's predictions.
 
 ### Results
-We trained DensetNet-169, EfficientNet and combined model (described below). The resulting AUC scores are given below.
+We trained DensetNet-121, EfficientNet and combined model (described below). The resulting AUC scores are given below.
 
 Model | AUC score
 ------------ | -------------
-DenseNet-169 | 0.81
+DenseNet-121 | 0.81
 EfficientNet | 0.84
 Combined model| 0.88
 
