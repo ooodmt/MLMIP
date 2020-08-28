@@ -31,6 +31,8 @@ Overall inspected models tend to consider relevant regions of input space more o
 ### Description
 Combined model is a set of several CNNs without their own classification layers, connected to a shared claassification layer. See figure below.
 
+![Combined model](https://raw.githubusercontent.com/ooodmt/MLMIP/master/combined_mod.png)
+
 ### Dataset
 For this project we chose CheXpert dataset with over 200,000 images. Since original version contains labels indicating uncertainty in findings, for the purpose of efficient training we decided to replace corresponding "-1" labels with random numbers drawn from a uniform distribution in range [0.55, 0.85] as done by one of the CheXpert top scoring contributors.
 
